@@ -26,7 +26,7 @@ func (p *Plugin) Exec() error {
 	log.Info("Drone Rancher Execute Plugin built")
 
 	if p.URL == "" || p.Key == "" || p.Secret == "" || p.Command == "" {
-		return errors.New("Eek: Must have url, key, secret, command, and service definied")
+		return errors.New("Eek: Must have url, key, secret, command, and service defined")
 	}
 
 	var wantedService, wantedStack string
