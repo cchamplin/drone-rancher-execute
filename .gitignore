@@ -1,0 +1,5 @@
+drone-rancher-execute
+*.so
+*.la
+*.o
+*.exe
